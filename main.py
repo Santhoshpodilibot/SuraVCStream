@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from driver.surabot import call_py, bot, user
+from driver.santhubot import call_py, bot, user
 
 
 async def start_bot():
@@ -8,8 +8,8 @@ async def start_bot():
     print("[INFO]: BOT & UBOT CLIENT STARTED !!")
     await call_py.start()
     print("[INFO]: PY-TGCALLS CLIENT STARTED !!")
-    await user.join_chat("SuraBotSupport")
-    await user.join_chat("SuraBotStats")
+    await user.join_chat("santhuvc")
+    await user.join_chat("santhubotupadates")
     await idle()
     print("[INFO]: STOPPING BOT & USERBOT")
     await bot.stop()
