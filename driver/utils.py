@@ -1,7 +1,7 @@
 import asyncio
 
 from driver.queues import QUEUE, clear_queue, get_queue, pop_an_item
-from driver.santhubot import bot, call_py
+from driver.surabot import bot, call_py
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pytgcalls.types import Update
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
