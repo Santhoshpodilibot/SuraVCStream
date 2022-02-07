@@ -1,5 +1,5 @@
 from cache.admins import admins
-from driver.surabot import call_py, bot
+from driver.santhubot import call_py, bot
 from pyrogram import Client, filters
 from driver.queues import QUEUE, clear_queue
 from driver.filters import command, other_filters
