@@ -1,11 +1,11 @@
-<p align="center"><a href="https://t.me/santhuvc"><img src="https://github.com/SRTheProgrammer/SuraVCStream/raw/main/driver/suravclogo.jpg"></a></p>
+<p align="center"><a href="https://t.me/santhuvc"><img src="https://github.com/Santhoshpodilibot/SuraVCStream.git/raw/main/driver/Picsart_22-02-07_14-33-47-351.jpg"></a></p>
 <p align="center">
-    <br><b>Sura VC Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
+    <br><b>santhu music is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
 </p>
 
 ## Preview
 <p align="center">
-  <img src="https://telegra.ph/file/21a41d5e4636289c2d768.png">
+  <img src="https://te.legra.ph/file/38deca938d96e9d207b27.jpg">
 </p>
 
 ## ✨ Features
@@ -52,10 +52,10 @@
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@SRTheProgrammer/Session-Generator#main.py)
 
-## Heroku Deployment
-The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
+🔥 ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ 🔥
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Santhoshpodilibot/SuraVCStream.git) 
+
 
 ## VPS Deployment 
 Get the best Quality of streaming performance by hosting it on VPS, Steps:
