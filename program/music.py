@@ -17,7 +17,7 @@ from driver.design.thumbnail import thumb
 from driver.design.chatname import CHAT_TITLE
 from driver.filters import command, other_filters
 from driver.queues import QUEUE, add_to_queue
-from driver.surabot import call_py, user
+from driver.santhubot import call_py, user
 from driver.utils import bash
 from config import BOT_USERNAME, IMG_1, IMG_2
 # youtube-dl stuff
