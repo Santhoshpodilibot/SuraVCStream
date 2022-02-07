@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By Sura VC Music-Project
+# Copyright (C) 2021 By Santhu Music Project
 # Commit Start Date 20/10/2021
 # Finished On 28/10/2021
 
