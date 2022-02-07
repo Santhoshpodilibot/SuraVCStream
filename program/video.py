@@ -11,7 +11,7 @@ from driver.design.thumbnail import thumb
 from driver.design.chatname import CHAT_TITLE
 from driver.filters import command, other_filters
 from driver.queues import QUEUE, add_to_queue
-from driver.surabot import call_py, user
+from driver.santhubot import call_py, user
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, Message
@@ -164,7 +164,7 @@ async def vplay(c: Client, m: Message):
                     amaze = MediumQualityVideo()
                 elif Q == 360:
                     amaze = LowQualityVideo()
-                await loser.edit("🔄 **Joining vc...**")
+                await loser.edit("😐 **ᴀʀᴇʏ ɴɪʙʙᴀ ᴠᴄ ᴋɪ ʙᴀᴛᴀɴᴀ ᴅʜᴀ...**")
                 await call_py.join_group_call(
                     chat_id,
                     AudioVideoPiped(
@@ -224,7 +224,7 @@ async def vplay(c: Client, m: Message):
                             )
                         else:
                             try:
-                                await loser.edit("🔄 **Joining vc...**")
+                                await loser.edit("😐 **ᴀʀᴇʏ ɴɪʙʙᴀ ᴠᴄ ᴋɪ ʙᴀᴛᴀɴᴀ ᴅʜᴀ...**")
                                 await call_py.join_group_call(
                                     chat_id,
                                     AudioVideoPiped(
@@ -288,7 +288,7 @@ async def vplay(c: Client, m: Message):
                         )
                     else:
                         try:
-                            await loser.edit("🔄 **Joining vc...**")
+                            await loser.edit("😐 **ᴀʀᴇʏ ɴɪʙʙᴀ ᴠᴄ ᴋɪ ʙᴀᴛᴀɴᴀ ᴅʜᴀ...**")
                             await call_py.join_group_call(
                                 chat_id,
                                 AudioVideoPiped(
@@ -381,7 +381,7 @@ async def vstream(c: Client, m: Message):
         if len(m.command) == 2:
             link = m.text.split(None, 1)[1]
             Q = 720
-            loser = await c.send_message(chat_id, "🔄 **processing stream...**")
+            loser = await c.send_message(chat_id, "🔄 **sᴛʀᴇᴀᴍ ɪs ᴘʀᴏᴄᴇssɪɴɢ...**")
         elif len(m.command) == 3:
             op = m.text.split(None, 1)[1]
             link = op.split(None, 1)[0]
@@ -393,7 +393,7 @@ async def vstream(c: Client, m: Message):
                 await m.reply(
                     "» __only 720, 480, 360 allowed__ \n💡 **now streaming video in 720p**"
                 )
-            loser = await c.send_message(chat_id, "🔄 **processing stream...**")
+            loser = await c.send_message(chat_id, "🔄 **sᴛʀᴇᴀᴍ ɪs ᴘʀᴏᴄᴇssɪɴɢ...**")
         else:
             await m.reply("**/vstream {link} {720/480/360}**")
 
@@ -426,7 +426,7 @@ async def vstream(c: Client, m: Message):
                 elif Q == 360:
                     amaze = LowQualityVideo()
                 try:
-                    await loser.edit("🔄 **Joining vc...**")
+                    await loser.edit("😐 **ᴀʀᴇʏ ɴɪʙʙᴀ ᴠᴄ ᴋɪ ʙᴀᴛᴀɴᴀ ᴅʜᴀ...**")
                     await call_py.join_group_call(
                         chat_id,
                         AudioVideoPiped(
