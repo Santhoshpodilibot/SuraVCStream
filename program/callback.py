@@ -21,36 +21,36 @@ async def cbstart(_, query: CallbackQuery):
         f"""👋 **Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
 🤖 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music🎶 and video🎥 on groups through the Telegram Group video chat!**
 
-📕 **Find out all the Bot's commands and how they work by clicking on the » 🛠️ Check Commands button!**
+📕 **ᴀʀᴇʏ ɴɪʙʙᴀ ɢᴀ ɴᴀ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ's ᴇʟᴀ ᴜsᴇ ᴄʜᴇʏᴀʟᴏ ᴋɪɴᴅʜᴀ 🥱sᴀɴᴛʜᴜ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴄʟɪᴄᴋ ᴄʜʀʏɪ ʀᴀ ɴɪʙʙᴀ!**
 
-🔖 **To know how to use this bot, please click on the » 📕 Read Basic Guide button!**
+🔖 **🅰🆁🅴🆈 🅽🅸🅱🅱🅰 🅽🅰🅽🆄 🅴🅻🅰 🆄🆂🅴 🅲🅷🅴🆈🅰🅻🅾 🆃🅴🅻🆄🆂🅰 🆃🅴🅻🅸🆈🅰🅺🅰 🅿🅾🆃🅷🅴 🅺🅸🅽🅳🅷🅰 😏🅱🅰🆂🅸🅲 🅶🆄🅸🅳🅴 🅱🆄🆃🆃🅾🅽 🅲🅻🅸🅲🅺 🅲🅷🅴🆈🅸!**
 
-👽 **To Deploy Your Own Source Click On The » 👉 My Source Code Button **
+👽 **To Deploy Your Own Source Click On The » 👉 ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ɴɪ ᴄʟɪᴄᴋ ᴄʜᴇʏɪ😜**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Click to Add Me to your group ➕",
+                        "🥺 ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 💞",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("📕 Read Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton(" 😏 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("🛠️ Check Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("💲Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("🥱 sᴀɴᴛʜᴜ ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
+                    InlineKeyboardButton("🥺 ᴅᴏɴᴀᴛᴇ ʀᴀ ɴɪʙʙᴀ", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👨🏾‍🤝‍👨🏼 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "💞 sᴀɴᴛʜᴜ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🔗 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "😇 ɴᴇᴛᴡᴏʀᴋ📡", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👉 My Source Code", url="https://github.com/SRTheProgrammer/SuraVCStream"
+                        "👉 ʀᴇᴘᴏ", url="https://telegra.ph/TITLE-02-07-28"
                     )
                 ],
             ]
@@ -77,7 +77,7 @@ async def cbguides(_, query: CallbackQuery):
 
 💡 If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}.""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
+            [[InlineKeyboardButton("👈 Go Back", callback_data="cbstart")]]
         ),
     )
 
@@ -94,12 +94,12 @@ async def cbcmds(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🥸Admin Cmd", callback_data="cbadmin"),
-                    InlineKeyboardButton("📕Sudo Cmd", callback_data="cbsudo"),
+                    InlineKeyboardButton("😇ᴀᴅᴍɪɴ ᴄᴍᴅ", callback_data="cbadmin"),
+                    InlineKeyboardButton("💞sᴜᴅᴏ ᴄᴍᴅ", callback_data="cbsudo"),
                 ],[
-                    InlineKeyboardButton("©Basic Cmd", callback_data="cbbasic")
+                    InlineKeyboardButton("😯ʙᴀsɪᴄ ᴄᴍᴅ", callback_data="cbbasic")
                 ],[
-                    InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")
+                    InlineKeyboardButton("👈 Go Back", callback_data="cbstart")
                 ],
             ]
         ),
@@ -127,7 +127,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 ⚡️ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("👈 Go Back", callback_data="cbcmds")]]
         ),
     )
 
@@ -151,7 +151,7 @@ async def cbadmin(_, query: CallbackQuery):
 
 ⚡️ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("👈 Go Back", callback_data="cbcmds")]]
         ),
     )
 
@@ -178,7 +178,7 @@ async def cbsudo(_, query: CallbackQuery):
 
 ⚡ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("👈 Go Back", callback_data="cbcmds")]]
         ),
     )
 
