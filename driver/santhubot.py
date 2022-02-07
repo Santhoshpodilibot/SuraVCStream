@@ -3,7 +3,7 @@ from pyrogram import Client
 from pytgcalls import PyTgCalls
 
 bot = Client(
-    ":Santhu:",
+    ":Sura:",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
