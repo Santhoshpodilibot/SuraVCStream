@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/SuraVCStreamBot"><img src="https://github.com/SRTheProgrammer/SuraVCStream/raw/main/driver/suravclogo.jpg"></a></p>
+<p align="center"><a href="https://t.me/santhuvc"><img src="https://github.com/SRTheProgrammer/SuraVCStream/raw/main/driver/suravclogo.jpg"></a></p>
 <p align="center">
     <br><b>Sura VC Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
 </p>
