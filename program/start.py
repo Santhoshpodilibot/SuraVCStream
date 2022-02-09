@@ -56,14 +56,8 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""👋 **Welcome {message.from_user.mention()} !**\n
-🤖 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music🎶 and video🎥 on groups through the Telegram Group video chat!**
-
-📕 **ᴀʀᴇʏ ɴɪʙʙᴀ ɢᴀ ɴᴀ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ's ᴇʟᴀ ᴜsᴇ ᴄʜᴇʏᴀʟᴏ ᴋɪɴᴅʜᴀ 🥱sᴀɴᴛʜᴜ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴄʟɪᴄᴋ ᴄʜʀʏɪ ʀᴀ ɴɪʙʙᴀ!**
-
-🔖 **🅰🆁🅴🆈 🅽🅸🅱🅱🅰 🅽🅰🅽🆄 🅴🅻🅰 🆄🆂🅴 🅲🅷🅴🆈🅰🅻🅾 🆃🅴🅻🆄🆂🅰 🆃🅴🅻🅸🆈🅰🅺🅰 🅿🅾🆃🅷🅴 🅺🅸🅽🅳🅷🅰 😏🅱🅰🆂🅸🅲 🅶🆄🅸🅳🅴 🅱🆄🆃🆃🅾🅽 🅲🅻🅸🅲🅺 🅲🅷🅴🆈🅸!**
-
-👽 **To Deploy Your Own Source Click On The » 👉 ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ɴɪ ᴄʟɪᴄᴋ ᴄʜᴇʏɪ😜**
-""",
+🤠 ʜᴇʏ\n ɪ'ᴍ *sᴀɴᴛʜᴏsʜ ᴍᴜsɪᴄ ʙᴏᴛ 😇*[!](https://te.legra.ph/file/38deca938d96e9d207b27.jpg)ʏᴏᴜʀ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ ᴍᴜsɪᴄ ʙᴏᴛ ɴᴀɴᴜ ᴍᴇ ɢʀᴏᴜᴘs ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴘʟᴢ ʀᴀ ɴɪʙʙᴀ ɴᴇɴᴜ ʟᴀɢ ʟᴇᴋᴜɴᴅᴀ ᴍᴜsɪᴄ ᴘʟᴀʏ ᴄʜᴇsᴛʜᴀ 🥺** 
+"""
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -75,11 +69,11 @@ async def start_(client: Client, message: Message):
                 [InlineKeyboardButton(" 😏 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("🥱 sᴀɴᴛʜᴜ ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
-                    InlineKeyboardButton("🥺 ᴅᴏɴᴀᴛᴇ ʀᴀ ɴɪʙʙᴀ", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("🥺 ᴅᴏɴᴀᴛᴇ ʀᴀ ɴɪʙʙᴀ🥺", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "💞 sᴀɴᴛʜᴜ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "💞 sᴀɴᴛʜᴜ ɢʀᴏᴜᴘ😁", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
                         "😇 ɴᴇᴛᴡᴏʀᴋ📡", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -87,7 +81,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👉 ʀᴇᴘᴏ", url="https://telegra.ph/TITLE-02-07-28"
+                        "😇 ɴɪʙʙǫ ʀᴇᴘᴏ", url=f"💡ʀᴇʟᴇᴀsᴇ sᴏᴏɴ 💓 ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ!", show_alert=True)
                     )
                 ],
             ]
