@@ -133,7 +133,7 @@ async def play(c: Client, m: Message):
                 buttons = stream_markup(user_id)
                 await suhu.delete()
                 await m.reply_photo(
-                    photo=f"{IMG_1}",
+                    photo=f"{IMG_𝟷}",
                     reply_markup=InlineKeyboardMarkup(buttons),
                     caption=f"💡 **Track added to queue »** `{pos}`\n\n🗂 **Name:** [{songname}]({link}) | `music`\n⏱️ **Duration:** `{duration}`\n🧸 **Request by:** {requester}",
                 )
