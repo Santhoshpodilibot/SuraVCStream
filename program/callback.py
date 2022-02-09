@@ -25,8 +25,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🥺 ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 💞",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        "😇 ɴɪʙʙǫ ʀᴇᴘᴏ", url=f"💡ʀᴇʟᴇᴀsᴇ sᴏᴏɴ 💓 ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ!", show_alert=True)
                     )
                 ],
                 [InlineKeyboardButton(" 😏 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
@@ -44,7 +43,8 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "😇 ɴɪʙʙǫ ʀᴇᴘᴏ", url=f"💡ʀᴇʟᴇᴀsᴇ sᴏᴏɴ 💓 ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ!", show_alert=True)
+                        "🥺 ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 💞",
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
             ]
@@ -71,7 +71,7 @@ async def cbguides(_, query: CallbackQuery):
 
 💡 If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}.""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("👈 Go Back", callback_data="cbstart")]]
+            [[InlineKeyboardButton("😇 Go Back", callback_data="cbstart")]]
         ),
     )
 
@@ -93,7 +93,7 @@ async def cbcmds(_, query: CallbackQuery):
                 ],[
                     InlineKeyboardButton("😯ʙᴀsɪᴄ ᴄᴍᴅ", callback_data="cbbasic")
                 ],[
-                    InlineKeyboardButton("👈 Go Back", callback_data="cbstart")
+                    InlineKeyboardButton("😇 Go Back", callback_data="cbstart")
                 ],
             ]
         ),
@@ -121,7 +121,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 ⚡️ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("👈 Go Back", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("😇 Go Back", callback_data="cbcmds")]]
         ),
     )
 
@@ -145,7 +145,7 @@ async def cbadmin(_, query: CallbackQuery):
 
 ⚡️ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("👈 Go Back", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("😇 Go Back", callback_data="cbcmds")]]
         ),
     )
 
@@ -172,7 +172,7 @@ async def cbsudo(_, query: CallbackQuery):
 
 ⚡ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("👈 Go Back", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("😇 Go Back", callback_data="cbcmds")]]
         ),
     )
 
