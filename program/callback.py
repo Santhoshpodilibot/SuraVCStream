@@ -51,6 +51,10 @@ async def cbstart(_, query: CallbackQuery):
                         "😇 ɴɪʙʙǫ ʀᴇᴘᴏ", url=f"💡ʀᴇʟᴇᴀsᴇ sᴏᴏɴ 💓 ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ!", show_alert=True)
                     )
                 ],
+                [    InlineKeyboardButton(
+                    " 😍 ʏᴏᴜᴛᴜʙᴇ ʀᴀ nibba😁", url="https://www.youtube.com/channel/UCCmjxoJe_6T1ota84YH3ikg?sub_confirmation=1"
+                     )
+                ]
             ]
         ),
         disable_web_page_preview=True,
