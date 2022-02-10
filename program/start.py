@@ -64,10 +64,11 @@ async def start_(client: Client, message: Message):
 """,
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        "😇 ɴɪʙʙǫ ʀᴇᴘᴏ", url=f"💡ʀᴇʟᴇᴀsᴇ sᴏᴏɴ 💓 ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ!", show_alert=True)
-                    )
+                [   InlineKeyboardButton(
+                        "🥺 ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 💞",
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    
+                    ) 
                 ],
                 [InlineKeyboardButton(" 😏 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
@@ -84,8 +85,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🥺 ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 💞",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        "😇 ɴɪʙʙǫ ʀᴇᴘᴏ", url=f"💡ʀᴇʟᴇᴀsᴇ sᴏᴏɴ 💓 ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ!", show_alert=True)
                     )
                 ],
             ]
