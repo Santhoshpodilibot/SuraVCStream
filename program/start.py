@@ -56,8 +56,12 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""🧐 **Welcome {message.from_user.mention()} !**\n
-🤠 ʜᴇʏ\n ɪ'ᴍ *sᴀɴᴛʜᴏsʜ ᴍᴜsɪᴄ ʙᴏᴛ 😇*[!](https://te.legra.ph/file/38deca938d96e9d207b27.jpg)ʏᴏᴜʀ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ ᴍᴜsɪᴄ ʙᴏᴛ ɴᴀɴᴜ ᴍᴇ ɢʀᴏᴜᴘs ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴘʟᴢ ʀᴀ ɴɪʙʙᴀ ɴᴇɴᴜ ʟᴀɢ ʟᴇᴋᴜɴᴅᴀ ᴍᴜsɪᴄ ᴘʟᴀʏ ᴄʜᴇsᴛʜᴀ 🥺** 
-""", 
+😀 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music🎶 and video🎥 on groups through the Telegram Group video chat!**
+
+🤠 ʜᴇʏ\n ɪ'ᴍ *sᴀɴᴛʜᴏsʜ ᴍᴜsɪᴄ ʙᴏᴛ 😇*[!](https://te.legra.ph/file/38deca938d96e9d207b27.jpg)ʏᴏᴜʀ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ ᴍᴜsɪᴄ ʙᴏᴛ ɴᴀɴᴜ ᴍᴇ ɢʀᴏᴜᴘs ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴘʟᴢ ʀᴀ ɴɪʙʙᴀ ɴᴇɴᴜ ʟᴀɢ ʟᴇᴋᴜɴᴅᴀ ᴍᴜsɪᴄ ᴘʟᴀʏ ᴄʜᴇsᴛʜᴀ 🥺!**
+
+👽 **To Deploy Your Own Source Click On The » repo button **
+""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
