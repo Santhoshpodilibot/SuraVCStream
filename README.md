@@ -5,7 +5,7 @@
 
 ## Preview
 <p align="center">
-  <img src="https://te.legra.ph/file/38deca938d96e9d207b27.jpg">
+  <img src="https://te.legra.ph/file/d61c9597cd9aa161524cd.jpg">
 </p>
 
 ## ✨ Features
