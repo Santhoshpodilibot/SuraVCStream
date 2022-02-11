@@ -19,7 +19,7 @@ async def cbstart(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
         f"""👋 **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})🧐 **(https://te.legra.ph/file/28f95b221efbefede9988.jpg)!**\n
-💟 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) **(https://te.legra.ph/file/28f95b221efbefede9988.jpg)\ɴᴇɴᴜ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴍᴜsɪᴄ ʙᴏᴛ ɴɪ 💚 ɴᴀɴᴜ ɢʀᴏᴜᴘ ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴍᴀɴᴄʜɪ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢs ᴋᴏsᴀᴍ ᴇᴅʜɪɴᴀ ᴋᴀᴠᴀʟᴀ ᴀɴɪ ᴋɪɴᴅʜᴀ (ʙᴀsɪᴄ ɢᴜɪᴅᴇ ʀᴀ ɴɪʙʙᴀ) ᴇ ʙᴜᴛᴛᴏɴ ᴄʟɪᴄᴋ ᴄʜᴇʏᴀɴᴅɪ 😁 ɴᴀɴᴜ ᴅᴇᴘʟᴏʏ ᴄʜᴇʏsɪɴᴅʜɪ [sᴀɴᴛʜᴜ 💓] (https://t.me/santhu_music_bot)!**
+💟 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) **ɴᴇɴᴜ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴍᴜsɪᴄ ʙᴏᴛ ɴɪ 💚 ɴᴀɴᴜ ɢʀᴏᴜᴘ ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴍᴀɴᴄʜɪ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢs ᴋᴏsᴀᴍ ᴇᴅʜɪɴᴀ ᴋᴀᴠᴀʟᴀ ᴀɴɪ ᴋɪɴᴅʜᴀ (ʙᴀsɪᴄ ɢᴜɪᴅᴇ ʀᴀ ɴɪʙʙᴀ) ᴇ ʙᴜᴛᴛᴏɴ ᴄʟɪᴄᴋ ᴄʜᴇʏᴀɴᴅɪ 😁 ɴᴀɴᴜ ᴅᴇᴘʟᴏʏ ᴄʜᴇʏsɪɴᴅʜɪ [sᴀɴᴛʜᴜ 💓] (https://t.me/santhu_music_bot)!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
