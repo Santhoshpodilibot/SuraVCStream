@@ -95,9 +95,9 @@ async def cbcmds(_, query: CallbackQuery):
                     InlineKeyboardButton("😊ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs 😊", callback_data="cbadmin"),
                     InlineKeyboardButton("😍 sᴜᴅᴏ ᴄᴏᴍᴍᴀɴᴅs 😇", callback_data="cbsudo"),
                 ],[
-                    InlineKeyboardButton("🙂 ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅs ", callback_data="cbbasic")
+                    InlineKeyboardButton("🙂 ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅs 😁", callback_data="cbbasic")
                 ],[
-                    InlineKeyboardButton("😝 ʀᴇᴛᴜʀɴ ᴛᴏ ʜᴏᴍᴇ 😊callback_data="cbstart")
+                    InlineKeyboardButton("😝 ʀᴇᴛᴜʀɴ ᴛᴏ ʜᴏᴍᴇ 😊", callback_data="cbstart")
                 ],
             ]
         ),
