@@ -55,41 +55,37 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""🧐 **Welcome {message.from_user.mention()} !**\n
-😀 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music🎶 and video🎥 on groups through the Telegram Group video chat!**
-
-🤠 ʜᴇʏ\n ɪ'ᴍ *sᴀɴᴛʜᴏsʜ ᴍᴜsɪᴄ ʙᴏᴛ 😇*[!](https://te.legra.ph/file/38deca938d96e9d207b27.jpg)ʏᴏᴜʀ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ ᴍᴜsɪᴄ ʙᴏᴛ ɴᴀɴᴜ ᴍᴇ ɢʀᴏᴜᴘs ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴘʟᴢ ʀᴀ ɴɪʙʙᴀ ɴᴇɴᴜ ʟᴀɢ ʟᴇᴋᴜɴᴅᴀ ᴍᴜsɪᴄ ᴘʟᴀʏ ᴄʜᴇsᴛʜᴀ 🥺!**
-
-👽 **To Deploy Your Own Source Click On The » repo button **
+        f"""🧐 **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()}🧐 **(https://te.legra.ph/file/28f95b221efbefede9988.jpg)!**\n
+💟 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) **(https://te.legra.ph/file/28f95b221efbefede9988.jpg)\ɴᴇɴᴜ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴍᴜsɪᴄ ʙᴏᴛ ɴɪ 💚 ɴᴀɴᴜ ɢʀᴏᴜᴘ ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴍᴀɴᴄʜɪ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢs ᴋᴏsᴀᴍ ᴇᴅʜɪɴᴀ ᴋᴀᴠᴀʟᴀ ᴀɴɪ ᴋɪɴᴅʜᴀ (ʙᴀsɪᴄ ɢᴜɪᴅᴇ ʀᴀ ɴɪʙʙᴀ) ᴇ ʙᴜᴛᴛᴏɴ ᴄʟɪᴄᴋ ᴄʜᴇʏᴀɴᴅɪ 😁 ɴᴀɴᴜ ᴅᴇᴘʟᴏʏ ᴄʜᴇʏsɪɴᴅʜɪ [sᴀɴᴛʜᴜ 💓] (https://t.me/santhu_music_bot) **
 """,
         reply_markup=InlineKeyboardMarkup(
             [
-                [   InlineKeyboardButton(
-                        "🥺 ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 💞",
+                [
+                    InlineKeyboardButton(
+                        "💙 ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜ ᴋᴏʀᴀ ɴɪʙʙᴀ 💞",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                    
-                    ) 
+                    )
                 ],
-                [InlineKeyboardButton(" 😏 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("💗 ʙᴀsɪᴄ ɢᴜɪᴅᴇ ʀᴀ ɴɪʙʙᴀ 🤍", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("🥱 sᴀɴᴛʜᴜ ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
-                    InlineKeyboardButton("🥺 ᴅᴏɴᴀᴛᴇ ʀᴀ ɴɪʙʙᴀ🥺", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("✅ sᴀɴᴛʜᴜ ᴄᴏᴍᴍᴀɴs 💘", callback_data="cbcmds"),
+                    InlineKeyboardButton("🔰 ᴅᴏɴᴀᴛᴇ ʀᴀ ɴɪʙʙᴀ 🔰", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "💞 sᴀɴᴛʜᴜ ɢʀᴏᴜᴘ😁", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "💖 ɢʀᴏᴜᴘ ʀᴀ ɴɪʙʙᴀ 💞", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "😇 ɴᴇᴛᴡᴏʀᴋ📡", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "💝 sᴀɴᴛʜᴜ ɴᴇᴛᴡᴏʀᴋ 🤎", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "😇 ɴɪʙʙǫ ʀᴇᴘᴏ", url=f"💡ʀᴇʟᴇᴀsᴇ sᴏᴏɴ 💓 ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ!", show_alert=True)
+                        "❤ ʏᴏᴜᴛᴜʙᴇ 💚", url="https://youtube.com/channel/UC7QMr8IDR65vciXrwx4XLiQ"
                     )
                 ],
                 [    InlineKeyboardButton(
-                    " 😍 ʏᴏᴜᴛᴜʙᴇ ʀᴀ nibba😁", url="https://www.youtube.com/channel/UCCmjxoJe_6T1ota84YH3ikg?sub_confirmation=1"
+                    "💛 ʀᴇᴘᴏ 💔", url=f" ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ 𝟻𝟶𝟶ᴋ ɴᴜᴍʙᴇʀs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ʀᴇᴘᴏ ɪs ʀᴇʟᴇᴀsᴇᴅ ᴛʜᴀɴᴋ ʏᴏᴜ ❤!", show_alert=True)
                      )
                 ]
             ]
