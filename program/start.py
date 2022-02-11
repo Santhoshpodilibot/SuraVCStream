@@ -114,7 +114,7 @@ async def alive(c: Client, message: Message):
         ]
     )
 
-    alive = f"**ʜᴇʟʟᴏ {message.from_user.mention()}, ɪᴀᴍ {BOT_NAME}**\n\n🧑🏼‍💻 ᴏᴡɴᴇʀ ɴɪʙʙᴀ 😂: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n👾 ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\n🔥 ᴘʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n🐍 ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n✨ ᴘʏᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n🆙 ᴜᴘᴛɪᴍᴇ: `{uptime}`\n😊 ᴘᴏᴡᴇʀᴇᴅ ʙʏ: '[{GROUP_SUPPORT}](https://t.me/{GROUP_SUPPORT})'\n/n❤**Thanks for Adding me here, for playing video & music on your Group's video chat**"
+    alive = f"**ʜᴇʟʟᴏ {message.from_user.mention()}, ɪᴀᴍ {BOT_NAME}**\n\n🧑🏼‍💻 ᴏᴡɴᴇʀ ɴɪʙʙᴀ 😂: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n👾 ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\n🔥 ᴘʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n🐍 ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n✨ ᴘʏᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n🆙 ᴜᴘᴛɪᴍᴇ: `{uptime}`\n😊 ᴘᴏᴡᴇʀᴇᴅ ʙʏ: '[{GROUP_SUPPORT}](https://t.me/{GROUP_SUPPORT})'\n❤**Thanks for Adding me here, for playing video & music on your Group's video chat**"
 
     await c.send_photo(
         chat_id,
@@ -138,10 +138,11 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 bot status:\n"
-        f"• **uptime:** `{uptime}`\n"
-        f"• **start time:** `{START_TIME_ISO}`\n"
-        f"• **powered by:** `{GROUP_SUPPORT}`"
+        "😊 sᴀɴᴛʜᴜ ʙᴏᴛ sᴛᴀᴛᴜs:\n"
+        f"• **ᴜᴘᴛɪᴍᴇ:** `{uptime}`\n"
+        f"• **ᴜsᴇʀ:** `{message.from_user.mention()}`\n"
+        f"• **sᴛᴀʀᴛ ᴛɪᴍᴇ:** `{START_TIME_ISO}`\n"
+        f"• **ᴘᴏᴡᴇʀᴇᴅ ʙʏ:** `{GROUP_SUPPORT}`"
     )
 
 
