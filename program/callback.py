@@ -48,7 +48,7 @@ async def cbstart(_, query: CallbackQuery):
                     )
                 ],
                 [    InlineKeyboardButton(
-                    "💛 ʀᴇᴘᴏ 💔", url=f" ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ 𝟻𝟶𝟶ᴋ ɴᴜᴍʙᴇʀs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ʀᴇᴘᴏ ɪs ʀᴇʟᴇᴀsᴇᴅ ᴛʜᴀɴᴋ ʏᴏᴜ ❤!", show_alert=True)
+                    "💛 ᴄᴏᴍᴍᴀɴᴅs 💔", url="https://telegra.ph/TITLE-02-09-53"
                      )
                 ]
             ]
