@@ -18,41 +18,39 @@ from config import (
 async def cbstart(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
-        f"""🧐 **Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
-🤣 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music🎶 and video🎥 on groups through the Telegram Group video chat!**
+        f"""👋 **Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
+🤖 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music🎶 and video🎥 on groups through the Telegram Group video chat!**
 
-🤠 ʜᴇʏ\n ɪ'ᴍ *sᴀɴᴛʜᴏsʜ ᴍᴜsɪᴄ ʙᴏᴛ 😇*[!](https://te.legra.ph/file/38deca938d96e9d207b27.jpg)ʏᴏᴜʀ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ ᴍᴜsɪᴄ ʙᴏᴛ ɴᴀɴᴜ ᴍᴇ ɢʀᴏᴜᴘs ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴘʟᴢ ʀᴀ ɴɪʙʙᴀ ɴᴇɴᴜ ʟᴀɢ ʟᴇᴋᴜɴᴅᴀ ᴍᴜsɪᴄ ᴘʟᴀʏ ᴄʜᴇsᴛʜᴀ 🥺!**
-
-👽 **To Deploy Your Own Source Click On The » repo button **
+💟 **ʜᴇʏ\ɴ ɪ'ᴍ *sᴀɴᴛʜᴜ ʙᴏᴛ*[!](https://te.legra.ph/file/28f95b221efbefede9988.jpg)\ɴᴇɴᴜ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴍᴜsɪᴄ ʙᴏᴛ ɴɪ 💚 ɴᴀɴᴜ ɢʀᴏᴜᴘ ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴍᴀɴᴄʜɪ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢs ᴋᴏsᴀᴍ ᴇᴅʜɪɴᴀ ᴋᴀᴠᴀʟᴀ ᴀɴɪ ᴋɪɴᴅʜᴀ (ʙᴀsɪᴄ ɢᴜɪᴅᴇ ʀᴀ ɴɪʙʙᴀ) ᴇ ʙᴜᴛᴛᴏɴ ᴄʟɪᴄᴋ ᴄʜᴇʏᴀɴᴅɪ 😁 ɴᴀɴᴜ ᴅᴇᴘʟᴏʏ ᴄʜᴇʏsɪɴᴅʜɪ [sᴀɴᴛʜᴜ 💓] (https://t.me/santhu_music_bot) **
 """,
         reply_markup=InlineKeyboardMarkup(
             [
-                [   InlineKeyboardButton(
-                        "🥺 ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 💞",
+                [
+                    InlineKeyboardButton(
+                        "💙 ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜ ᴋᴏʀᴀ ɴɪʙʙᴀ 💞",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                    
-                    ) 
+                    )
                 ],
-                [InlineKeyboardButton(" 😏 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("💗 ʙᴀsɪᴄ ɢᴜɪᴅᴇ ʀᴀ ɴɪʙʙᴀ 🤍", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("🥱 sᴀɴᴛʜᴜ ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
-                    InlineKeyboardButton("🥺 ᴅᴏɴᴀᴛᴇ ʀᴀ ɴɪʙʙᴀ🥺", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("✅ sᴀɴᴛʜᴜ ᴄᴏᴍᴍᴀɴs 💘", callback_data="cbcmds"),
+                    InlineKeyboardButton("🔰 ᴅᴏɴᴀᴛᴇ ʀᴀ ɴɪʙʙᴀ 🔰", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "💞 sᴀɴᴛʜᴜ ɢʀᴏᴜᴘ😁", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "💖 ɢʀᴏᴜᴘ ʀᴀ ɴɪʙʙᴀ 💞", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "😇 ɴᴇᴛᴡᴏʀᴋ📡", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "💝 sᴀɴᴛʜᴜ ɴᴇᴛᴡᴏʀᴋ 🤎", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "😇 ɴɪʙʙǫ ʀᴇᴘᴏ", url=f"💡ʀᴇʟᴇᴀsᴇ sᴏᴏɴ 💓 ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ!", show_alert=True)
+                        "❤ ʏᴏᴜᴛᴜʙᴇ 💚", url="https://youtube.com/channel/UC7QMr8IDR65vciXrwx4XLiQ"
                     )
                 ],
                 [    InlineKeyboardButton(
-                    " 😍 ʏᴏᴜᴛᴜʙᴇ ʀᴀ nibba😁", url="https://www.youtube.com/channel/UCCmjxoJe_6T1ota84YH3ikg?sub_confirmation=1"
+                    "💛 ʀᴇᴘᴏ 💔", url=f" ᴘʟᴇᴀsᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍʏ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ 𝟻𝟶𝟶ᴋ ɴᴜᴍʙᴇʀs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ʀᴇᴘᴏ ɪs ʀᴇʟᴇᴀsᴇᴅ ᴛʜᴀɴᴋ ʏᴏᴜ ❤!", show_alert=True)
                      )
                 ]
             ]
@@ -79,7 +77,7 @@ async def cbguides(_, query: CallbackQuery):
 
 💡 If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}.""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("😇 Go Back", callback_data="cbstart")]]
+            [[InlineKeyboardButton("💛 Go Back", callback_data="cbstart")]]
         ),
     )
 
@@ -96,12 +94,12 @@ async def cbcmds(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😇ᴀᴅᴍɪɴ ᴄᴍᴅ", callback_data="cbadmin"),
-                    InlineKeyboardButton("💞sᴜᴅᴏ ᴄᴍᴅ", callback_data="cbsudo"),
+                    InlineKeyboardButton("😊ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs 😊", callback_data="cbadmin"),
+                    InlineKeyboardButton("😍 sᴜᴅᴏ ᴄᴏᴍᴍᴀɴᴅs 😇", callback_data="cbsudo"),
                 ],[
-                    InlineKeyboardButton("😯ʙᴀsɪᴄ ᴄᴍᴅ", callback_data="cbbasic")
+                    InlineKeyboardButton("🙂 ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅs ", callback_data="cbbasic")
                 ],[
-                    InlineKeyboardButton("😇 Go Back", callback_data="cbstart")
+                    InlineKeyboardButton("😝 ʀᴇᴛᴜʀɴ ᴛᴏ ʜᴏᴍᴇ 😊callback_data="cbstart")
                 ],
             ]
         ),
@@ -112,7 +110,7 @@ async def cbcmds(_, query: CallbackQuery):
 async def cbbasic(_, query: CallbackQuery):
     await query.answer("basic commands")
     await query.edit_message_text(
-        f"""🏮 here is the basic commands:
+        f"""🥰 here is the basic commands:
 
 » /play (song name/link) - play music on video chat
 » /vplay (video name/link) - play video on video chat
@@ -129,7 +127,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 ⚡️ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("😇 Go Back", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("😄 ʙᴀᴄᴋ ʀᴀ ɴɪʙʙᴀ 😁", callback_data="cbcmds")]]
         ),
     )
 
@@ -138,7 +136,7 @@ async def cbbasic(_, query: CallbackQuery):
 async def cbadmin(_, query: CallbackQuery):
     await query.answer("admin commands")
     await query.edit_message_text(
-        f"""🏮 here is the admin commands:
+        f"""🥰 here is the admin commands:
 
 » /pause - pause the stream
 » /resume - resume the stream
@@ -153,7 +151,7 @@ async def cbadmin(_, query: CallbackQuery):
 
 ⚡️ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("😇 Go Back", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("😄 ʙᴀᴄᴋ ʀᴀ ɴɪʙʙᴀ 😁", callback_data="cbcmds")]]
         ),
     )
 
@@ -161,7 +159,7 @@ async def cbadmin(_, query: CallbackQuery):
 async def cbsudo(_, query: CallbackQuery):
     await query.answer("sudo commands")
     await query.edit_message_text(
-        f"""🏮 here is the sudo commands:
+        f"""😊 here is the sudo commands:
 
 » /gban (`username` or `user id`) - for global banned people
 » /ungban (`username` or `user id`) - for un-global banned people
@@ -180,7 +178,7 @@ async def cbsudo(_, query: CallbackQuery):
 
 ⚡ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("😇 Go Back", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("😄 ʙᴀᴄᴋ ʀᴀ ɴɪʙʙᴀ 😁", callback_data="cbcmds")]]
         ),
     )
 
